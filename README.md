@@ -28,7 +28,7 @@ If you are not from this course, you can of course upload your own corpus as a z
 
 ## A note about pyLDAvis
 
-The environment should support [pyLDAvis](https://github.com/bmabey/pyLDAvis), however this is not implemented in the sample notebook. Add a cell like this to run it (note: this is sloooowwww!):
+The environment should support [pyLDAvis](https://github.com/bmabey/pyLDAvis), however this is not implemented in the sample notebook. Add a cell like this to run it (note: this is sloooowwww and not recommended!):
 
 ```
 import pyLDAvis.gensim as gensimvis
