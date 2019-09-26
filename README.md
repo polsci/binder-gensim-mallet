@@ -11,7 +11,15 @@ This repository is designed for students in DIGI405 at the University of Canterb
 
 ## A note to DIGI405 students
 
-Make sure you are downloading your notebook regularly as Binder times out. Read the [Binder FAQ](https://mybinder.readthedocs.io/en/latest/faq.html).
+Make sure you are downloading your notebook regularly as Binder times out after 10 minutes! Read the [Binder FAQ](https://mybinder.readthedocs.io/en/latest/faq.html).
+
+### Steps for DIGI405:
+
+1. Launch Binder (see link below).  
+2. Using the file browser upload your corpus zip file (from the Datasets page on Learn).   
+3. Run the `topic-modeling-with-gensim-mallet.ipynb` notebook.
+4. Run the first code cell in the notebook to unzip the corpus.  
+5. Use the notebook to create your topic model.  
 
 ## A note to everyone
 
