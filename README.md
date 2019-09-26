@@ -5,6 +5,8 @@ Geoff Ford
 https://geoffford.nz  
 https://github.com/polsci/  
 
+See also: [Colab + Gensim + Mallet](https://github.com/polsci/colab-gensim-mallet)
+
 ## Introduction
 
 This repository is designed for students in DIGI405 at the University of Canterbury to do topic modeling through their browser using Binder. It is relevant for others who want to do topic modeling through a browser with their own corpus.
