@@ -26,7 +26,7 @@ WORKDIR ${HOME}
 USER ${USER}
 
 # Make sure the contents of our repo are in ${HOME}
-COPY ./topic-modeling-with-gensim-and-mallet.ipynb ${HOME}
+COPY ./topic-modeling-with-binder-gensim-mallet.ipynb ${HOME}
 USER root
 RUN chown -R ${NB_UID} ${HOME}
 USER ${NB_USER}
