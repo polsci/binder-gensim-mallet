@@ -6,16 +6,17 @@ RUN apt-get update && \
     apt-get clean;
 
 # install the notebook package - pip3 install --no-cache --upgrade pip && \
-RUN pip3 install --no-cache notebook nltk gensim pyldavis
+RUN pip3 install --no-cache notebook nltk gensim==3.8 pyldavis
 
 ADD http://mallet.cs.umass.edu/dist/mallet-2.0.8.tar.gz /
 RUN tar -zxf /mallet-2.0.8.tar.gz
 ENV PATH="/mallet-2.0.8/bin:${PATH}"
 
 # create user with a home directory
-ARG NB_USER
-ARG NB_UID
+ARG NB_USER=jovyan
+ARG NB_UID=1000
 ENV USER ${NB_USER}
+ENV NB_UID ${NB_UID}
 ENV HOME /home/${NB_USER}
 
 RUN adduser --disabled-password \
