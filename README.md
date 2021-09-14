@@ -2,7 +2,7 @@
 
 September 26, 2019  
 Geoff Ford  
-https://geoffford.nz  
+https://polsci.github.io/  
 https://github.com/polsci/  
 
 See also: [Colab + Gensim + Mallet](https://github.com/polsci/colab-gensim-mallet)
