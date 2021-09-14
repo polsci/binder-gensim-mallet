@@ -6,7 +6,7 @@ RUN apt-get update && \
     apt-get clean;
 
 # install the notebook package - pip3 install --no-cache --upgrade pip && \
-RUN pip3 install --no-cache notebook nltk gensim==3.8 pyldavis
+RUN pip3 install --no-cache jupyterhub nltk gensim==3.8
 
 ADD http://mallet.cs.umass.edu/dist/mallet-2.0.8.tar.gz /
 RUN tar -zxf /mallet-2.0.8.tar.gz
