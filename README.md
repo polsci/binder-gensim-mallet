@@ -32,7 +32,7 @@ Before running the Binder, please read the [Binder FAQ](https://mybinder.readthe
 ## Launch Binder
 
 Click here to run the Binder:  
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/polsci/binder-gensim-mallet/master)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/polsci/binder-gensim-mallet/HEAD?filepath=topic-modeling-with-binder-gensim-mallet.ipynb)
 
 ## Not in DIGI405?
 
