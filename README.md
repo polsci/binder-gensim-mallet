@@ -1,6 +1,6 @@
 # Binder + Gensim + Mallet
 
-September 26, 2019  
+September 23, 2021  
 Geoff Ford  
 https://polsci.github.io/  
 https://github.com/polsci/  
@@ -10,6 +10,8 @@ See also: [Colab + Gensim + Mallet](https://github.com/polsci/colab-gensim-malle
 ## Introduction
 
 This repository is designed for students in DIGI405 at the University of Canterbury to do topic modeling through their browser using Binder. It is relevant for others who want to do topic modeling through a browser with their own corpus.
+
+Note: The notebook has been updated to enforce Gensim v3.8 (the last version to support running topic models via Mallet) and to specify requirements using an apt.txt file and requirements.txt file over the former Dockerfile.
 
 ## A note to DIGI405 students
 
