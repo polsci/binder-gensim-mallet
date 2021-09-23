@@ -1,1 +1,3 @@
 gensim==3.8
+nltk
+pyldavis
